@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/theme_gray">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@mipmap/img_two">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:id="@+id/relativeLayout"
+            android:background="@mipmap/transprate">
+
+            <TextView
+                android:text="《雨果》"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="@color/colorThemeText"
+                android:id="@+id/movie_name" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="260dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@mipmap/love_unclick"
+                    android:layout_centerVertical="true"
+                    android:id="@+id/favorite_img"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerHorizontal="true" />
+
+                <TextView
+                    android:text="15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/favorite_num"
+                    android:layout_centerVertical="true"
+                    android:textColor="@color/colorThemeText"
+                    android:layout_toLeftOf="@+id/favorite_img"
+                    android:layout_toRightOf="@+id/favorite_img"
+                    android:layout_toEndOf="@+id/favorite_img" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@mipmap/comment"
+                    android:id="@+id/comment_img"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/favorite_num"
+                    android:layout_toRightOf="@+id/favorite_num"
+                    android:layout_toEndOf="@+id/favorite_num" />
+
+                <TextView
+                    android:text="15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:textColor="@color/colorThemeText"
+                    android:layout_toLeftOf="@+id/comment_img"
+                    android:layout_toRightOf="@+id/comment_img"
+                    android:layout_toEndOf="@+id/comment_img"
+                    android:id="@+id/comment_num" />
+
+            </RelativeLayout>
+
+
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+</LinearLayout>

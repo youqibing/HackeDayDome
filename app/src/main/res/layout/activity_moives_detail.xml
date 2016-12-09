@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/movie_details_layout">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/theme_gray"
+        android:id="@+id/movie_layout">
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/movie_list">
+
+        </ListView>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/up_button"
+            android:id="@+id/up_img"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"/>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="168dp"
+        android:id="@+id/comment_layout">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:id="@+id/transprate"
+            android:background="@color/transprate"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_below="@+id/transprate"
+            android:id="@+id/comment_title"
+            android:background="@color/theme_gray">
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="1dp"
+                android:background="@color/colorserachText"
+                android:layout_toEndOf="@+id/movies_title"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/movies_title" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:id="@+id/movies_title"
+                android:textColor="@color/colorThemeText"
+                android:text="《冰与火之歌》"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="1dp"
+                android:background="@color/colorserachText"
+                android:layout_toStartOf="@+id/movies_title"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/movies_title" />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/down_button"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="0dp"
+            android:id="@+id/down_img"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/theme_gray"
+            android:id="@+id/comment_list"
+            android:layout_below="@+id/comment_title">
+
+        </ListView>
+
+    </RelativeLayout>
+
+
+
+</FrameLayout>

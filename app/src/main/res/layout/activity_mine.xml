@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/theme_gray">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:id="@+id/mine_bacgroud"
+        android:background="@mipmap/mine_backgroud">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mine_title"
+                android:textSize="20sp"
+                android:textColor="@color/colorThemeText"
+                android:layout_centerInParent="true"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@mipmap/back"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginStart="15dp"
+                android:id="@+id/back" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/change_photo"
+            android:layout_marginTop="60dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerHorizontal="true">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/unlogin"
+                android:layout_centerInParent="true"/>
+
+            <com.example.dell.hackedaydome.View.CircularView.CircularImage
+                android:id="@+id/avatar"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center_horizontal" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="130dp">
+
+            <TextView
+                android:text="游骑兵"
+                android:textSize="18sp"
+                android:paddingRight="10dp"
+                android:textColor="@color/colorThemeText"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="48dp"
+                android:id="@+id/nick_name" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                app:srcCompat="@mipmap/sex"
+                android:id="@+id/sex_img"
+                android:layout_toLeftOf="@+id/nick_name"
+                android:layout_toRightOf="@+id/nick_name"
+                android:layout_toEndOf="@+id/nick_name"/>
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/theme_gray">
+
+        <RelativeLayout
+            android:layout_width="1dp"
+            android:layout_height="60dp"
+            android:layout_centerHorizontal="true"
+            android:id = "@+id/line1"
+            android:background="@color/colorThemeText"
+            android:layout_marginTop="15dp">
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/line1"
+            android:layout_marginTop="14dp"
+            android:text="@string/mine_collection"
+            android:textColor="@color/colorThemeText"
+            android:textSize="20sp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/my_collection" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@mipmap/rhombus"
+            android:id="@+id/imageView4"
+            android:layout_below="@+id/my_collection"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="14dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView4"
+            android:layout_marginTop="14dp"
+            android:text="@string/mine_message"
+            android:textColor="@color/colorThemeText"
+            android:textSize="20sp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/my_message" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@mipmap/rhombus"
+            android:id="@+id/imageView5"
+            android:layout_below="@+id/my_message"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="14dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView5"
+            android:layout_marginTop="14dp"
+            android:text="@string/mine_suggestion"
+            android:textColor="@color/colorThemeText"
+            android:textSize="20sp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/suggestion" />
+
+        <RelativeLayout
+            android:layout_width="1dp"
+            android:layout_height="60dp"
+            android:layout_centerHorizontal="true"
+            android:id = "@+id/line2"
+            android:background="@color/colorThemeText"
+            android:layout_below="@+id/suggestion"
+            android:layout_marginTop="15dp">
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

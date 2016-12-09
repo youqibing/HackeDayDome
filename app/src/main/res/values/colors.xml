@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorToolBar">#0c0c0c</color>
+    <color name="colorThemeText">#c9c9c9</color>
+    <color name="colorserachText">#a0a0a0</color>
+    <color name="theme_gray">#1c1c1c</color>
+    <color name="transprate">#00000000</color>
+</resources>

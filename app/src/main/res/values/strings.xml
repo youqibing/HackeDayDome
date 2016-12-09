@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">HackeDayDome</string>
+    <string name="theme"> 须臾 </string>
+    <string name="movie_name"> 《唐顿庄园》</string>
+
+    <string name="mine_title"> 个           人</string>
+    <string name="mine_serach"> 搜           索</string>
+    <string name="mine_minepost"> 我的发布 </string>
+    <string name="register"> 注册</string>
+    <string name="login"> 登录</string>
+
+    <string name="mine_collection"> 我的收藏 </string>
+    <string name="mine_message"> 我的消息 </string>
+    <string name="mine_suggestion"> 意见反馈 </string>
+    <string name="serach_tx"> 输入电影名 </string>
+    <string name="serach_str"> 寻找你感兴趣的电影瞬间 </string>
+
+    <string name="fantasy_pull_to_refresh_pull_label">下拉刷新</string>
+    <string name="fantasy_pull_to_refresh_release_label">松开刷新</string>
+    <string name="fantasy_pull_to_refresh_refreshing_label">加载中...</string>
+    <string name="fantasy_pull_to_refresh_tap_label">点击刷新</string>
+
+
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading">正在加载...</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <string name="xlistview_footer_hint_normal"></string>
+    <string name="xlistview_footer_hint_ready"></string>
+
+    <string name="xlistview_footer_hint_end">没有更多了</string>
+</resources>
